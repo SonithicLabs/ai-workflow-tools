@@ -1,0 +1,21 @@
+# 🧰 LoRA Visual Indexer (v1.1)
+
+### **"Stop guessing what your LoRAs do — see them all at a glance."**
+
+---
+
+## 🧠 What It Does
+If you’ve been collecting LoRAs for months and can’t remember which one turns your renders into vintage glamour shots and which one makes people look like wax dolls — this tool’s for you.  
+
+The **LoRA Visual Indexer** scans your LoRA folder, generates a preview for each `.safetensors` file using Stable Diffusion WebUI’s API, and creates a clean HTML gallery so you can *see* what each LoRA actually does.
+
+No more guessing. No more “final_final_fixed_v3.safetensors” mysteries.
+
+---
+
+## ⚙️ Requirements
+- **Stable Diffusion Automatic1111 WebUI** running with the `--api` flag  
+- **Python 3.8+**
+- Python libraries:  
+  ```bash
+  pip install requests
